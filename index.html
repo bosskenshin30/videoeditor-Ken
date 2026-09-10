@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ken Madera — Video Editor & Graphic Designer</title>
+<meta name="description" content="Ken Madera — Professional Video Editor, Graphic Designer & Creative Virtual Assistant helping brands create visuals that convert.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== LOADING SCREEN ===================== -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <span class="loader-mark">KM</span>
+    <div class="loader-bar"><span></span></div>
+  </div>
+</div>
+
+<!-- ===================== CURSOR + PROGRESS + GLOW ===================== -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="scroll-progress"><span id="scrollProgressBar"></span></div>
+<div class="mouse-glow" id="mouseGlow"></div>
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">Ken<span>Madera</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-nav>About</a>
+      <a href="#services" data-nav>Services</a>
+      <a href="#videos" data-nav>Videos</a>
+      <a href="#gallery" data-nav>Gallery</a>
+      <a href="#process" data-nav>Process</a>
+      <a href="#testimonials" data-nav>Testimonials</a>
+      <a href="#faq" data-nav>FAQ</a>
+      <a href="#contact" class="nav-cta" data-nav>Hire Me</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" data-nav>About</a>
+  <a href="#services" data-nav>Services</a>
+  <a href="#videos" data-nav>Videos</a>
+  <a href="#gallery" data-nav>Gallery</a>
+  <a href="#process" data-nav>Process</a>
+  <a href="#testimonials" data-nav>Testimonials</a>
+  <a href="#faq" data-nav>FAQ</a>
+  <a href="#contact" data-nav>Contact</a>
+</div>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="hero-shapes">
+    <div class="shape shape-a"></div>
+    <div class="shape shape-b"></div>
+    <div class="shape shape-c"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <div class="hero-content container">
+    <p class="eyebrow reveal">Video Editor · Graphic Designer · Creative VA</p>
+    <h1 class="hero-title reveal">
+      <span class="type-line" id="typeLine">Creating Visual Stories</span><br>
+      That Get Results.
+    </h1>
+    <p class="hero-sub reveal">
+      Professional Video Editor &amp; Graphic Designer helping brands stand out through impactful visuals.
+    </p>
+    <div class="hero-cta reveal">
+      <a href="#videos" class="btn btn-primary">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Hire Me</a>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-hint-line"></div>
+  </div>
+</section>
+
+<!-- ===================== STATS ===================== -->
+<section class="stats-section container">
+  <div class="stats-grid">
+    <div class="stat-card reveal">
+      <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+      <p>Years Experience</p>
+    </div>
+    <div class="stat-card reveal">
+      <span class="stat-number" data-count="30">0</span><span class="stat-plus">+</span>
+      <p>Projects Completed</p>
+    </div>
+    <div class="stat-card reveal">
+      <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+      <p>Happy Clients</p>
+    </div>
+    <div class="stat-card reveal">
+      <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+      <p>Videos Edited</p>
+    </div>
+    <div class="stat-card reveal">
+      <span class="stat-number" data-count="100">0</span><span class="stat-plus">+</span>
+      <p>Graphics Designed</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="about-section container" id="about">
+  <div class="section-head reveal">
+    <p class="eyebrow">About Me</p>
+    <h2>I don't just edit videos.<br>I create content that keeps people watching.</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-photo reveal">
+      <div class="about-photo-frame">
+        <img src="assets/ken.jpg" alt="Ken Madera, Video Editor and Graphic Designer" loading="lazy">
+      </div>
+    </div>
+
+    <div class="about-text reveal">
+      <p>
+        I have years of experience working remotely with international clients — building visuals
+        that don't just look good, but move the needle for real businesses.
+      </p>
+      <p class="about-highlight">
+        Backed by nearly a decade of remote work experience, I combine creative design with business
+        understanding — producing content that not only looks great but supports real marketing goals.
+      </p>
+      <p>
+        I understand both creative storytelling and marketing psychology, so every cut, caption, and
+        color grade is built to hold attention and drive action — not just fill a timeline.
+      </p>
+    </div>
+
+    <div class="about-skills reveal">
+      <div class="skill-block">
+        <h3>Video</h3>
+        <ul>
+          <li>Short-form Video Editing</li>
+          <li>Long-form Video Editing</li>
+          <li>Reels &amp; TikTok Videos</li>
+          <li>YouTube Videos</li>
+          <li>AI-assisted Editing</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Design</h3>
+        <ul>
+          <li>Social Media Graphics</li>
+          <li>Thumbnail Design</li>
+          <li>Branding Materials</li>
+          <li>Marketing Creatives</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Tools &amp; Support</h3>
+        <ul>
+          <li>Premiere Pro · After Effects (Basic)</li>
+          <li>Photoshop · Canva · CapCut</li>
+          <li>Virtual Assistance</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="services-section container" id="services">
+  <div class="section-head reveal">
+    <p class="eyebrow">What I Do</p>
+    <h2>Services built to make your brand impossible to scroll past.</h2>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card glass reveal">
+      <div class="service-icon">🎬</div>
+      <h3>Video Editing</h3>
+      <p>Polished, story-driven edits that keep viewers watching from first frame to last.</p>
+    </div>
+    <div class="service-card glass reveal">
+      <div class="service-icon">📱</div>
+      <h3>Social Media Editing</h3>
+      <p>Scroll-stopping content tailored to how people actually watch on Instagram and TikTok.</p>
+    </div>
+    <div class="service-card glass reveal">
+      <div class="service-icon">▶️</div>
+      <h3>YouTube Editing</h3>
+      <p>Retention-focused pacing, clean sound design, and thumbnails that earn the click.</p>
+    </div>
+    <div class="service-card glass reveal">
+      <div class="service-icon">⚡</div>
+      <h3>Short-form Content</h3>
+      <p>Fast-paced Reels, Shorts, and TikToks engineered for watch-through and shares.</p>
+    </div>
+    <div class="service-card glass reveal">
+      <div class="service-icon">🎨</div>
+      <h3>Graphic Design</h3>
+      <p>Clean, on-brand visuals that make your business look as good as it performs.</p>
+    </div>
+    <div class="service-card glass reveal">
+      <div class="service-icon">🖼️</div>
+      <h3>Thumbnail Design</h3>
+      <p>High-contrast, curiosity-driven thumbnails built to boost click-through rate.</p>
+    </div>
+    <div class="service-card glass reveal">
+      <div class="service-icon">🏷️</div>
+      <h3>Branding</h3>
+      <p>Cohesive visual identities — logos, colors, and templates clients recognize instantly.</p>
+    </div>
+    <div class="service-card glass reveal">
+      <div class="service-icon">🤝</div>
+      <h3>Creative VA Support</h3>
+      <p>Reliable day-to-day creative support so you can focus on running your business.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== VIDEO SHOWCASE ===================== -->
+<section class="videos-section container" id="videos">
+  <div class="section-head reveal">
+    <p class="eyebrow">Video Showcase</p>
+    <h2>Watch the edits in motion.</h2>
+  </div>
+
+  <div class="videos-grid">
+    <div class="video-card glass reveal">
+      <div class="video-embed">
+        <video controls preload="metadata" poster="assets/videos/podcast-1-poster.jpg" src="assets/videos/podcast-1.mp4"></video>
+      </div>
+      <div class="video-meta">
+        <h3>Podcast Video</h3>
+        <p>Full podcast episode edit — pacing, sound, and visual polish for a long-form format.</p>
+      </div>
+    </div>
+    <div class="video-card glass reveal">
+      <div class="video-embed">
+        <video controls preload="metadata" poster="assets/videos/podcast-2-no-bgm-poster.jpg" src="assets/videos/podcast-2-no-bgm.mp4"></video>
+      </div>
+      <div class="video-meta">
+        <h3>Podcast Video (No BGM)</h3>
+        <p>Alternate cut of the same episode without background music.</p>
+      </div>
+    </div>
+    <div class="video-card glass reveal">
+      <div class="video-embed">
+        <video controls preload="metadata" poster="assets/videos/clip-1-poster.jpg" src="assets/videos/clip-1.mp4"></video>
+      </div>
+      <div class="video-meta">
+        <h3>Clip 01</h3>
+        <p>A sample of my video editing work.</p>
+      </div>
+    </div>
+    <div class="video-card glass reveal">
+      <div class="video-embed">
+        <video controls preload="metadata" poster="assets/videos/clip-2-poster.jpg" src="assets/videos/clip-2.mp4"></video>
+      </div>
+      <div class="video-meta">
+        <h3>Clip 02</h3>
+        <p>A sample of my video editing work.</p>
+      </div>
+    </div>
+    <div class="video-card glass reveal">
+      <div class="video-embed">
+        <video controls preload="metadata" poster="assets/videos/clip-3-poster.jpg" src="assets/videos/clip-3.mp4"></video>
+      </div>
+      <div class="video-meta">
+        <h3>Clip 03</h3>
+        <p>A sample of my video editing work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GRAPHIC DESIGN GALLERY ===================== -->
+<section class="gallery-section container" id="gallery">
+  <div class="section-head reveal">
+    <p class="eyebrow">Graphic Design</p>
+    <h2>A gallery of visual work.</h2>
+  </div>
+
+  <div class="masonry" id="masonry">
+    <div class="masonry-item" data-img="assets/gallery/poster-01.jpg">
+      <img src="assets/gallery/poster-01.jpg" alt="Cosca Cardinals — Mr & Ms Ambassador Poster" loading="lazy"><span>Cosca Cardinals — Mr & Ms Ambassador Poster</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-02.jpg">
+      <img src="assets/gallery/poster-02.jpg" alt="Cardinals Sportsfest" loading="lazy"><span>Cardinals Sportsfest</span>
+    </div>
+    <div class="masonry-item tall" data-img="assets/gallery/poster-03.jpg">
+      <img src="assets/gallery/poster-03.jpg" alt="Cardinals Week 2026" loading="lazy"><span>Cardinals Week 2026</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-04.jpg">
+      <img src="assets/gallery/poster-04.jpg" alt="Toyota Supra MK5 — Sakura Special Edition" loading="lazy"><span>Toyota Supra MK5 — Sakura Special Edition</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-05.jpg">
+      <img src="assets/gallery/poster-05.jpg" alt="Nissan Skyline R34 — Skyline" loading="lazy"><span>Nissan Skyline R34 — Skyline</span>
+    </div>
+    <div class="masonry-item tall" data-img="assets/gallery/poster-06.jpg">
+      <img src="assets/gallery/poster-06.jpg" alt="Toyota GT86 — Special Edition" loading="lazy"><span>Toyota GT86 — Special Edition</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-07.jpg">
+      <img src="assets/gallery/poster-07.jpg" alt="Honda Civic Type R" loading="lazy"><span>Honda Civic Type R</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-08.jpg">
+      <img src="assets/gallery/poster-08.jpg" alt="Nissan Silvia S13 — Initial D" loading="lazy"><span>Nissan Silvia S13 — Initial D</span>
+    </div>
+    <div class="masonry-item tall" data-img="assets/gallery/poster-09.jpg">
+      <img src="assets/gallery/poster-09.jpg" alt="Suzuki Swift — HashWheel" loading="lazy"><span>Suzuki Swift — HashWheel</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-10.jpg">
+      <img src="assets/gallery/poster-10.jpg" alt="Mercedes-AMG CLA 45" loading="lazy"><span>Mercedes-AMG CLA 45</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-11.jpg">
+      <img src="assets/gallery/poster-11.jpg" alt="Nissan Skyline GT-R — Hakosuka" loading="lazy"><span>Nissan Skyline GT-R — Hakosuka</span>
+    </div>
+    <div class="masonry-item tall" data-img="assets/gallery/poster-12.jpg">
+      <img src="assets/gallery/poster-12.jpg" alt="Toyota Hilux — Samurai" loading="lazy"><span>Toyota Hilux — Samurai</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-13.jpg">
+      <img src="assets/gallery/poster-13.jpg" alt="Nissan Skyline GT-R R33 — Need for Speed Most Wanted" loading="lazy"><span>Nissan Skyline GT-R R33 — Need for Speed Most Wanted</span>
+    </div>
+    <div class="masonry-item" data-img="assets/gallery/poster-14.jpg">
+      <img src="assets/gallery/poster-14.jpg" alt="Honda Civic — JDM Performance" loading="lazy"><span>Honda Civic — JDM Performance</span>
+    </div>
+    <div class="masonry-item tall" data-img="assets/gallery/poster-15.jpg">
+      <img src="assets/gallery/poster-15.jpg" alt="Toyota Supra MK5" loading="lazy"><span>Toyota Supra MK5</span>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">&times;</button>
+  <div class="lightbox-content" id="lightboxContent"></div>
+</div>
+
+<!-- ===================== WHY WORK WITH ME ===================== -->
+<section class="why-section container">
+  <div class="section-head reveal">
+    <p class="eyebrow">Why Work With Me</p>
+    <h2>Creative work, handled with care and consistency.</h2>
+  </div>
+
+  <div class="why-grid">
+    <div class="why-card glass reveal">
+      <h3>Fast Turnaround</h3>
+      <p>Efficient workflows mean your content is ready when you need it — not weeks later.</p>
+    </div>
+    <div class="why-card glass reveal">
+      <h3>Attention to Detail</h3>
+      <p>Every frame, caption, and pixel is checked before it reaches you.</p>
+    </div>
+    <div class="why-card glass reveal">
+      <h3>Creative Storytelling</h3>
+      <p>Visuals built around a narrative, not just a timeline of clips.</p>
+    </div>
+    <div class="why-card glass reveal">
+      <h3>Marketing-Focused Editing</h3>
+      <p>Every edit is made with your goals in mind — awareness, engagement, or sales.</p>
+    </div>
+    <div class="why-card glass reveal">
+      <h3>Reliable Communication</h3>
+      <p>Clear updates and quick responses, so you're never left wondering.</p>
+    </div>
+    <div class="why-card glass reveal">
+      <h3>Client-Centered Workflow</h3>
+      <p>Your feedback shapes the process — this is your brand, and it should feel like it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESS ===================== -->
+<section class="process-section container" id="process">
+  <div class="section-head reveal">
+    <p class="eyebrow">My Creative Process</p>
+    <h2>A clear path from idea to final delivery.</h2>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-body">
+        <h3>Discovery</h3>
+        <p>Understanding your brand, goals, and audience before anything is created.</p>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-body">
+        <h3>Planning</h3>
+        <p>Mapping the structure, style, and direction of the content.</p>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-body">
+        <h3>Editing</h3>
+        <p>Bringing the vision to life with careful, intentional craft.</p>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-body">
+        <h3>Revision</h3>
+        <p>Refining based on your feedback until it feels exactly right.</p>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-body">
+        <h3>Delivery</h3>
+        <p>Final files handed off, organized and ready to publish.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="testimonials-section container" id="testimonials">
+  <div class="section-head reveal">
+    <p class="eyebrow">Testimonials</p>
+    <h2>What clients say about working together.</h2>
+  </div>
+
+  <div class="testimonial-carousel reveal">
+    <div class="testimonial-track" id="testimonialTrack">
+      <div class="testimonial-card">
+        <p>"Ken turned our raw footage into content that actually performed. Communication was smooth from start to finish."</p>
+        <span class="t-name">— Placeholder Client, E-commerce Founder</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"Our watch time went up noticeably after Ken took over editing. Reliable, fast, and genuinely creative."</p>
+        <span class="t-name">— Placeholder Client, YouTube Creator</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"The thumbnails and graphics finally match the quality of our product. Highly recommend."</p>
+        <span class="t-name">— Placeholder Client, Marketing Manager</span>
+      </div>
+    </div>
+    <div class="testimonial-dots" id="testimonialDots"></div>
+  </div>
+</section>
+
+<!-- ===================== TOOLS ===================== -->
+<section class="tools-section container">
+  <div class="section-head reveal">
+    <p class="eyebrow">Software &amp; Tools</p>
+    <h2>The stack behind every project.</h2>
+  </div>
+
+  <div class="tools-grid">
+    <div class="tool-chip glass reveal">Premiere Pro</div>
+    <div class="tool-chip glass reveal">After Effects</div>
+    <div class="tool-chip glass reveal">Photoshop</div>
+    <div class="tool-chip glass reveal">Illustrator</div>
+    <div class="tool-chip glass reveal">Canva</div>
+    <div class="tool-chip glass reveal">CapCut</div>
+    <div class="tool-chip glass reveal">DaVinci Resolve</div>
+    <div class="tool-chip glass reveal">Figma</div>
+    <div class="tool-chip glass reveal">ChatGPT</div>
+    <div class="tool-chip glass reveal">Claude</div>
+    <div class="tool-chip glass reveal">Google Drive</div>
+    <div class="tool-chip glass reveal">Dropbox</div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="faq-section container" id="faq">
+  <div class="section-head reveal">
+    <p class="eyebrow">FAQ</p>
+    <h2>Questions clients often ask.</h2>
+  </div>
+
+  <div class="faq-list reveal">
+    <div class="faq-item">
+      <button class="faq-question">How long does editing take? <span>+</span></button>
+      <div class="faq-answer"><p>Turnaround depends on project length and complexity, but most short-form content is delivered within 2–4 days, and longer projects within a week.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">What files do you need? <span>+</span></button>
+      <div class="faq-answer"><p>Raw footage or design assets, any brand guidelines or references, and a short brief describing the goal of the project.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How many revisions? <span>+</span></button>
+      <div class="faq-answer"><p>Every project includes revision rounds to make sure the final result matches your vision.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Can you edit shorts? <span>+</span></button>
+      <div class="faq-answer"><p>Yes — short-form editing for Reels, TikTok, and YouTube Shorts is one of my core specialties.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Do you offer graphic design too? <span>+</span></button>
+      <div class="faq-answer"><p>Yes — thumbnails, social graphics, and branding materials are all part of what I offer alongside video editing.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact-section container" id="contact">
+  <div class="contact-card glass reveal">
+    <h2>Let's Create Something Amazing Together.</h2>
+    <p>Have a project in mind? Reach out and let's talk about how great visuals can move your brand forward.</p>
+
+    <div class="contact-grid">
+      <a href="mailto:kengmadera@gmail.com" class="contact-item">
+        <span class="contact-icon">✉️</span>
+        <div><strong>Email</strong><p>kengmadera@gmail.com</p></div>
+      </a>
+      <a href="https://wa.me/639368571005" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-icon">💬</span>
+        <div><strong>WhatsApp</strong><p>Message me directly</p></div>
+      </a>
+      <a href="https://www.linkedin.com/in/kengeomadera" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-icon">🔗</span>
+        <div><strong>LinkedIn</strong><p>Connect professionally</p></div>
+      </a>
+      <div class="contact-item">
+        <span class="contact-icon">📍</span>
+        <div><strong>Location</strong><p>Remote — Worldwide</p></div>
+      </div>
+    </div>
+
+    <a href="mailto:kengmadera@gmail.com" class="btn btn-primary btn-lg">Let's Create Something Amazing Together</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <a href="#home" class="logo">Ken<span>Madera</span></a>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/kengeomadera" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Ken Madera. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
